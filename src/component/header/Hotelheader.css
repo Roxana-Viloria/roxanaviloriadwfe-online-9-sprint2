@@ -1,0 +1,43 @@
+.hotel-header {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    color: rgb(38, 50, 82);
+    padding-left: 100px;
+    padding-top: 50px;
+    
+  }
+  
+  .titles-hotel {
+    font-family:sans-serif;
+    color: rgb(38, 50, 82);
+    font-size:24px;
+    padding-bottom: 20px;
+    font-weight:lighter;
+    font-weight: bolder;
+    text-align: start;
+  }
+  
+  .subtitles-hotel {
+    font-size: 14px;
+    color: rgb(38, 50, 82);
+    font-family: sans-serif;
+    margin: 0;
+    font-weight:lighter;
+    text-align: start
+  }
+
+  @media (min-width: 280px) and (max-width:768px){
+
+  .hotel-header {
+    width: 80%; 
+  }
+
+  .titles-hotel {
+    text-align: center;
+  }
+  
+  .subtitles-hotel {
+    text-align: center
+  }
+}
